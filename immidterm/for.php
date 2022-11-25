@@ -46,7 +46,15 @@
             left: 1120px;
             top: -54px;
         }
-   
+        .as{
+            position: relative;
+        }
+   input{
+    position: absolute;
+     left: 1115px;
+     top:20px;
+     width: 110px;
+   }
 </style>
 
 <body>
@@ -82,9 +90,13 @@
                                         }
                                     
                                     ?>
+                                    <div class="as">
+                                        <input type="number" placeholder ="Quantity" name="qtyw">  
+                                     </div>
                                         </tr>
-                                                                      
+                                             
                             </table> 
+                            
                             <div class="wer">
                                 <button type="button" class="btn btn-primary aw" >ADD CART</button> 
                             </div>
